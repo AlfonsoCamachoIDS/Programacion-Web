@@ -24,8 +24,8 @@ ________________________________________________________________________________
 1. Material de Estudio - Unidad 1
 2. Video: Tutorial de Figma - [Figma tutorial for Beginners: Complete Website from Start to Finish](https://www.youtube.com/watch?v=HZuk6Wkx_Eg&ab_channel=FluxAcademy)
 3. Video: Breakpoints en Figma - [Responsive Design in Figma Using Breakpoints](https://www.youtube.com/watch?v=c0ZTaDMGb20&ab_channel=DesignWithArash)
-4. ¿Como se Invento el Internet? - <iframe width="400" height="226" src="https://www.youtube.com/embed/dxyzlwG-0S8" title="¿CÓMO SE INVENTÓ EL INTERNET?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-5. ¿Que es el Internet? - <iframe width="400" height="226" src="https://www.youtube.com/embed/-JVdH8ne-2s" title="Microaprendizaje: ¿Qué es internet?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+4. ¿Como se Invento el Internet? - <https://www.youtube.com/embed/dxyzlwG-0S8>
+5. ¿Que es el Internet? - <https://www.youtube.com/embed/-JVdH8ne-2s>
 6. Ejercicio 3 -  Markdown
 7. Ejercicio 4 - Diseño Web: Colores y tipografia
 8. Analisis de Sitios Web
