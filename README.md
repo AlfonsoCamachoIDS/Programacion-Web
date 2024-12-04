@@ -35,8 +35,8 @@ ________________________________________________________________________________
 
 1. Instrucciones para las Entregas
 2. Material Unidad 2
-3. Video Aprende git en 15 min
-4. Como publicar un sitio web em GitHub
+3. Video [Aprende git en 15 min](https://www.youtube.com/watch?v=vlCXdvcgiE0)
+4. [Como publicar un sitio web en GitHub](https://www.youtube.com/watch?v=8IdBAysf-U4&ab_channel=Programaci%C3%B3nAccesible)
 5. Ejercicio 1 - Pagina web con elementos basicos
 6. Ejercicio 2 - Listas, Multimedia y Tablas
 7. Formularios y metadatos
