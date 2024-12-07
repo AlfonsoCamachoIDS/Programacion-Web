@@ -1,3 +1,30 @@
+
+# Sitio con tarjetas (Flex)
+
+---
+
+## Tarea
+
+Utilizando flexbox y el sitio previamente diseñado:
+
+- Añade varias filas y columnas con las tarjetas hechas en el Ejercicio #2 - Tarjeta
+- Añade un menú desplegable a alguna de las opciones de tu header. (Ve el ejemplo en el repositorio en la carpeta "sitio", coloca el cursor encima del menú de Aspirantes)
+
+## Desarrollo
+
+En el ejercicio 2 yo ya habia realizado las tarjetas con felxbox, no habia llegado a estar tarea ni habia leido las instrucciones. Trabaje en una emnpresa por un año tres meses como especialista en cargador de contenido web donde me encargaba de crear paginas web con flexbox y hacerlas responsivas, eran paginas relativamente sencillas, aunque algunas no tanto, pero contaba con el apoyo del frontend que ya tenia el sitio hecho y los estilos principales.
+
+Me encargue de hacer el dropdown menu.
+
+Resultado:
+
+![Tarjetas Flex y Dropdown Menu](/imgs/unidad-3-ejercicio-5-tarjetas-flex-y-dropdown-menu/dropdown-menu.png)
+
+![Flexbox](/imgs/unidad-3-ejercicio-2-tarjetas/tarjetas.png)
+
+Tarjetas flexbox y Nav con Dropdown Menu
+
+```HTML
 <!DOCTYPE html>
 <html lang="es">
 
@@ -129,3 +156,66 @@
 </body>
 
 </html>
+```
+
+Estilos CSS
+
+```CSS
+nav {
+    position: fixed;
+    top: 119px; /* Ajustar este valor según la altura de tu header */
+    width: 100%;
+    background-color: #444;
+    /* overflow: hidden; */
+    z-index: 999; /* Aseguramos que el nav esté justo debajo del header */
+
+    margin: auto;
+}
+
+nav a {
+    /* float: left; */
+    /* display: block; */
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #FF7F50;
+    color: #000;
+}
+
+.horizontal-menu {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+}
+
+.horizontal-menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.vertical-menu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 0;
+    width: 206px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.horizontal-menu li:hover .vertical-menu {
+    display: block;
+}
+
+.vertical-menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+```

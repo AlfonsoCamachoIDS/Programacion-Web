@@ -14,14 +14,21 @@
     </header>
 
     <nav>
-        <a href="/unidades_de_la_materia/3-css/main/index.html">Página Principal</a>
-        <a href="/unidades_de_la_materia/3-css/main/pages/about-us.html">Acerca del
-            Creador</a>
-        <a href="/unidades_de_la_materia/3-css/main/pages/linux-distro.html">Distribuciones
-            de
-            Linux</a>
-        <a href="/unidades_de_la_materia/3-css/main/pages/packages-linux.html">Paquetes
-            de Linux</a>
+        <ul class="horizontal-menu">
+            <li><a href="/unidades_de_la_materia/3-css/main/index.html">Página Principal</a></li>
+            <li><a href="/unidades_de_la_materia/3-css/main/pages/about-us.html">Acerca del Creador</a></li>
+            <li>
+                <a href="/unidades_de_la_materia/3-css/main/pages/linux-distro.html">Distribuciones de Linux</a>
+                <ul class="vertical-menu">
+                    <li><a href="https://ubuntu.com" target="_blank" rel="noopener">Ubuntu</a></li>
+                    <li><a href="https://getfedora.org" target="_blank" rel="noopener">Fedora</a></li>
+                    <li><a href="https://archlinux.org" target="_blank" rel="noopener">Arch Linux</a></li>
+                    <li><a href="https://debian.org" target="_blank" rel="noopener">Debian</a></li>
+                    <li><a href="https://kali.org" target="_blank" rel="noopener">Kali Linux</a></li>
+                </ul>
+            </li>
+            <li><a href="/unidades_de_la_materia/3-css/main/pages/packages-linux.html">Paquetes de Linux</a></li>
+        </ul>
     </nav>
 
     <main>
@@ -35,11 +42,47 @@
                     <li><code>sudo pacman -S</code> - para Arch Linux</li>
                 </ul>
             </div>
+            <div id="package-grid" class="content">
+                <h2>Algunos Manejadores de Paquetes de Linux</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3>Snaps</h3>
+                        <p>Snaps son paquetes de software universales que funcionan en cualquier distribución de Linux. Son fáciles de instalar y vienen con todas sus dependencias.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Flatpak</h3>
+                        <p>Flatpak es una tecnología de distribución de software que permite instalar y ejecutar aplicaciones en entornos aislados.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>AppImage</h3>
+                        <p>AppImage es un formato de paquete universal para distribuir aplicaciones portátiles en Linux sin necesidad de instalación.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Yum</h3>
+                        <p>Yum es un gestor de paquetes para distribuciones basadas en RPM como CentOS y Red Hat. Facilita la instalación y actualización de paquetes.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Zypper</h3>
+                        <p>Zypper es un gestor de paquetes para distribuciones basadas en openSUSE, que permite la instalación y gestión de paquetes y repositorios.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Pacman</h3>
+                        <p>Pacman es el gestor de paquetes de Arch Linux que permite la instalación y actualización sencilla de paquetes con un solo comando.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>DNF</h3>
+                        <p>DNF es el sucesor de Yum y se utiliza en distribuciones como Fedora para la gestión de paquetes y actualizaciones.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>APT</h3>
+                        <p>APT es el gestor de paquetes de Debian y sus derivadas, que facilita la instalación, actualización y gestión de software.</p>
+                    </div>
+                </div>
+            </div>
             <hr class="hr-footer" />
             <div class="content">
                 <h2>Extras (Footer)</h2>
-                <p>Para escribir código, puedes usar etiquetas como <code>&lt;code&gt;</code> y <kbd>&lt;kbd&gt;</kbd>
-                    para entradas de teclado.</p>
+                <p>Para escribir código, puedes usar etiquetas como <code>&lt;code&gt;</code> y <kbd>&lt;kbd&gt;</kbd> para entradas de teclado.</p>
                 <p>Ejemplo de subíndice y superíndice: H<sub>2</sub>O y X<sup>2</sup>.</p>
                 <p>
                 <pre>Texto preformateado con espacios y saltos de línea.</pre>
